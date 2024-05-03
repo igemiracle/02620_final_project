@@ -1,3 +1,0 @@
-error(train), 0.306736
-error(test),0.306250
-f1_score(train),0.667945
