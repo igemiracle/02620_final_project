@@ -1,0 +1,4 @@
+Metric,Value
+Train Error,0.021952
+Test Error,0.0220254
+F1 Score,0.9780862000000001
