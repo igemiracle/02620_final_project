@@ -29,18 +29,16 @@ Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Sin
 ### Executing program
 
 
-* First run the **Final_Project_fs_cv_kmeans.ipynb**. Tips:
-    * In order to make sure the code can be exeuted normally, please keep your data folder name consistent with this repo
-    * For the logistic regression, simply run the **run_lr_cv.sh** to automatelly run batch cross vaildation (Already included these commands in the notebook) 
-    ```
-    bash run_lr_cv.sh baron
-    ```
-    * If you want to call the logistic regression model separately, follow this example:
-    ```
-    python lr_final.py ../clean_data_pca/baron/fold_1/train_features.csv ../clean_data_pca/baron/fold_1/train_labels.csv ../clean_data_pca/baron/fold_1/valid_features.csv ../clean_data_pca/baron/fold_1/valid_labels.csv metrics.txt 50 0.01
-    ```
-* Second, run **Final_Project_SVM_XGB_ActiveLearning.ipynb**
-* Finally, run **Final_Project_Results.ipynb** to get visualization
+* First run the Final_Project_fs_cv_kmeans.ipynb
+* In order to make sure the code can be exeuted normally, please keep your data folder name consistent with this repo
+* For the logistic regression, simply run the **run_lr_cv.sh** to automatelly run batch cross vaildation
+```
+bash run_lr_cv.sh baron
+```
+* If you want to call the logistic regression model separately, follow this example:
+```
+python lr_final.py ../clean_data_pca/baron/fold_1/train_features.csv ../clean_data_pca/baron/fold_1/train_labels.csv ../clean_data_pca/baron/fold_1/valid_features.csv ../clean_data_pca/baron/fold_1/valid_labels.csv metrics.txt 50 0.01
+```
 
 
 
