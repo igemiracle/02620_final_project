@@ -1,7 +1,7 @@
 """
 This Python script takes train features and labels, test features and labels, output path, epoch time, learning rate as input
 outputs train error, test error and f1 score in a csv file
-To automatelly run batch cross vaildation, The script was wrapped in a bash script 'cv.sh'
+To automatelly run batch cross vaildation, The script was wrapped in a bash script 'run_lr_cv.sh'
 Don't have to run this script manually
 """
 
